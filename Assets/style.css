@@ -24,7 +24,7 @@ nav {
 
 .name h1 {
     position: relative;
-    top: -15%;
+    top: -55%;
     left: 25%;
     transform: translateY(-50%);
     font-size: 42px;
@@ -64,12 +64,65 @@ header {
 .subtitle {
     height: 100px;
     width: 350px;
-    border: 1px solid black;
     float: right;
     position: relative;
     bottom: -75%;
     right: 20px;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    background-color: #33cccc;
+    text-align: center;
+    font-size: 25px;
 }
 
 /* End of header*/
+
+/* Beginning of main */
+.main {
+    max-width: 100vw;
+}
+
+/* Start of section inside of main */
+
+section {
+    display: flex;
+    padding-left: 150px;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    border: 1px solid black;
+    float: right;
+    font-size: 45px;
+    width: 25%;
+}
+
+section span {
+    float: right;
+}
+
+.content {
+    border-left: 4px solid black;
+    margin-inline-start: 30px;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.work {
+    border-left: 3px solid black;
+    margin-left: 10px;
+}
+
+
+/* End of section inside of main */
+
+/* Start of work*/
+#main-project {
+    border: 1px solid black;
+    height: 300px;
+    width: 1000px;
+}
+
+/* End of work */
+/* End of Main */
