@@ -1,0 +1,48 @@
+body {
+    max-width: 100%;
+    margin: 0;
+}
+
+header {
+    max-width: 100vw;
+    height: 100px;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    width: 350px;
+    height: 60px;
+    margin: auto 0;
+    position: relative;
+    top: 27%;
+    transform: translateY(-50%);
+    background-color: aqua;
+}
+
+.name h1 {
+    position: relative;
+    top: 5%;
+    left: 42%;
+    transform: translateY(-50%);
+    font-size: 32px;
+}
+
+.links {
+    position: absolute;
+    right: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    list-style: none;
+    color: aqua;
+}
+
+.links li {
+    border-bottom: 3px solid aqua;
+    display: inline;
+    margin: 10px;
+    font-size: 32px;
+}
