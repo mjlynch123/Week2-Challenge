@@ -1,59 +1,66 @@
 body {
     max-width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 /* This is all the code for the nav */
 nav {
     max-width: 100vw;
     height: 100px;
-    background-color: #737373;
-    display: flex;
-    align-items: center;
+    margin: 0;
 }
 
 .name {
-    width: 350px;
+    width: 100%;
     height: 60px;
-    margin: auto 0;
-    position: relative;
-    top: 27%;
-    transform: translateY(-50%);
-    background-color: #33cccc;
+    margin: 10px;
+    margin-left: -70px;
 }
 
 .name h1 {
-    position: relative;
-    top: -55%;
-    left: 25%;
-    transform: translateY(-50%);
     font-size: 42px;
-    color: #737373;
+    color: #fff;
 }
 
 .links {
-    position: absolute;
-    right: 30px;
+    padding-right: 50px;
+    padding-left: 0;
+    margin-top: -16px;
 }
 
-.links a{
-    text-decoration: none;
+.links ul {
+    display: flex;
+}
+
+.links a {
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+    margin-top: 15px;
+    text-align: center;
     list-style: none;
-    color: #33cccc;
+    text-decoration: none;
+    width: 25%;
+    height: 45px;
+    font-size: 22px;
+}
+
+.links a:hover {
+    background-color: #e9e9e9;
 }
 
 .links li {
-    border-bottom: 3px solid #33cccc;
-    display: inline;
-    margin: 10px;
-    font-size: 32px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* End of nav */
 
 /* Start of header*/
 header {
-    height: 300px;
+    height: 450px;
     max-width: 100vw;
     /*Image from Gradienta on unsplash */
     background-image: url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -61,17 +68,24 @@ header {
     background-repeat: no-repeat;
 }
 
-.subtitle {
-    height: 100px;
+.Introduction {
+    height: 300px;
     width: 350px;
-    float: right;
     position: relative;
-    bottom: -75%;
-    right: 20px;
-    transform: translateY(-50%);
-    background-color: #33cccc;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
     text-align: center;
     font-size: 25px;
+}
+
+.avatar {
+    background-image: url(../Images/Profilepic.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 /* End of header*/
@@ -84,34 +98,26 @@ header {
 /* Start of section inside of main */
 
 section {
-    display: flex;
     padding-left: 150px;
     margin-bottom: 10px;
 }
 
 section h2 {
-    border: 1px solid black;
-    float: right;
+    border-bottom: 5px solid cyan;
     font-size: 45px;
-    width: 25%;
-}
-
-section span {
-    float: right;
+    width: 225px;
 }
 
 .content {
-    border-left: 4px solid black;
-    margin-inline-start: 30px;
-    padding-left: 10px;
-    font-size: 25px;
+    margin-right: 100px;
+    font-size: 22px;
     margin-top: 10px;
     max-width: 100%;
+    line-height: 1.5em;
 }
 
 .work {
-    border-left: 3px solid black;
-    margin-left: 10px;
+    
 }
 
 
@@ -125,4 +131,27 @@ section span {
 }
 
 /* End of work */
+.contact {
+    display: flex;
+}
+
+.contact p {
+    margin-inline-end: 50px;
+    border-bottom: 4px solid cyan;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+/* Start of contact */
+
+
+/* End of contact */
 /* End of Main */
+
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+    }
+}
