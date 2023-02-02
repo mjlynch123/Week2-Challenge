@@ -1,4 +1,5 @@
 body {
+    font-family: 'Fira Sans', sans-serif;
     /*Image from Gradienta on unsplash */
     background: linear-gradient();
     max-width: 100%;
@@ -63,6 +64,7 @@ section {
 
 section h2 {
     font-size: 35px;
+    font-weight: 700;
 }
 
 #aboutme {
@@ -74,6 +76,7 @@ section h2 {
 .content {
     font-size: 22px;
     line-height: 1.5em;
+    font-weight: 400;
 }
 
 #work {
@@ -140,8 +143,16 @@ section h2 {
     color: black;
 }
 
+#contact p {
+    background-color: #bfbfbf;
+    margin: 0 auto;
+    border-bottom: 4px solid transparent;
+    width: 75%;
+    text-align: left;
+}
+
 #contact a {
-    border-bottom: 4px solid black;
+    margin-left: 10px;
     text-decoration: none;
     color: black;
 }
@@ -247,6 +258,10 @@ section h2 {
 
     .description p {
         display: none;
+    }
+
+    #contact p {
+        font-size: 16px;
     }
 }
 
