@@ -96,6 +96,7 @@ section h2 {
 #second {
     background-image: url(../Images/Prework_Study_Guide.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Image from google */
@@ -139,17 +140,10 @@ section h2 {
     color: black;
 }
 
-@media screen and (max-width: 912px) {
-    .lower {
-        flex-direction: column;
-    }
-
-    .project {
-        height: 400px;
-        width: 100%;
-        margin: 0;
-        margin-bottom: 10px;
-    }
+#contact a {
+    border-bottom: 4px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 912px) {
@@ -163,11 +157,20 @@ section h2 {
         height: 275px;
     }
 
+    .lower {
+        flex-direction: column;
+    }
+
     .project {
         height: 250px;
-        width: 100%;
+        width: 85%;
         margin: 0;
         margin-bottom: 10px;
+        margin-left: 40px;
+    }
+
+    .description p {
+        display: none;
     }
 }
 
