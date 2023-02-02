@@ -41,11 +41,11 @@ nav a {
 
 
 .avatar {
-    border: 1px solid black;
+    box-shadow: 0 0 25px #bfbfbf;
     background-image: url(../Images/Profilepic.png);
     background-size: contain;
     border-radius: 50%;
-    margin: 20px auto;
+    margin: 30px auto;
     width: 250px;
     height: 250px;
 }
@@ -68,6 +68,7 @@ section h2 {
 }
 
 #aboutme {
+    box-shadow: 0 0 15px #bfbfbf;
     background-color: #bfbfbf;
     padding: 10px;
     margin-top: 70px;
@@ -89,7 +90,7 @@ section h2 {
 #first {
     background-image: url(../Images/HoriseonPic.png);
     background-size: cover;
-    border: 1px solid black;
+    box-shadow: 0 0 15px #bfbfbf;
     position: relative;
     height: 600px;
     max-width: 100%;
@@ -114,7 +115,7 @@ section h2 {
 }
 
 .project {
-    border: 1px solid black;
+    box-shadow: 0 0 15px #bfbfbf;
     position: relative;
     width: 50%;
     height: 300px;
@@ -146,6 +147,7 @@ section h2 {
 #contact p {
     background-color: #bfbfbf;
     margin: 0 auto;
+    box-shadow: 0 0 25px #bfbfbf;
     border-bottom: 4px solid transparent;
     width: 75%;
     text-align: left;
