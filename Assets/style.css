@@ -99,14 +99,14 @@ section h2 {
 
 #second {
     background-image: url(../Images/Prework_Study_Guide.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* Image from google */
 #third, #fourth, #fifth {
     background-image: url(https://static.vecteezy.com/system/resources/previews/003/582/701/original/coming-soon-background-illustration-template-design-free-vector.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
