@@ -104,8 +104,20 @@ section h2 {
 }
 
 /* Image from google */
-#third, #fourth, #fifth {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/003/582/701/original/coming-soon-background-illustration-template-design-free-vector.jpg);
+#third {
+    background-image: url(../Images/passwordval.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fourth {
+    background-image: url(../Images/SignInUI.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fifth {
+    background-image: url(../Images/NFT_Card.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
